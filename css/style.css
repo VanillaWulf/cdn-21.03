@@ -1,0 +1,53 @@
+.btn-purple {
+    color: #fff;
+    background-color: #931991;
+    border-color: #931991;
+}
+
+.btn-purple:hover {
+    color: #fff;
+    background-color: #d343d1;
+    border-color: #d343d1;
+}
+
+.btn-check:focus+.btn-purple,
+.btn-purple:focus {
+    color: #fff;
+    background-color: #b51fb3;
+    border-color: #b51fb3;
+    box-shadow: 0 0 0 0.25rem rgba(130, 138, 145, 0.5);
+}
+
+.btn-check:checked+.btn-purple,
+.btn-check:active+.btn-purple,
+.btn-purple:active,
+.btn-purple.active,
+.show>.btn-purple.dropdown-toggle {
+    color: #fff;
+    background-color: #6a0b68;
+    border-color: #6a0b68;
+}
+
+.btn-check:checked+.btn-purple:focus,
+.btn-check:active+.btn-purple:focus,
+.btn-purple:active:focus,
+.btn-purple.active:focus,
+.show>.btn-purple.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.25rem rgba(130, 138, 145, 0.5);
+}
+
+.btn-purple:disabled,
+.btn-purple.disabled {
+    color: #fff;
+    background-color:  #675067;
+    border-color:  #675067;
+}
+
+div {
+    border: 4px solid;
+}
+
+.icon {
+    color: red;
+    font-size: 80px;
+}
